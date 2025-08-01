@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
 import Login from './pages/Login'
+import Footer from './layouts/Footer'
 
 const MyRoute = () => {
 
@@ -13,6 +14,7 @@ const MyRoute = () => {
             <div>
                 <Header/>
                 <Outlet/>
+                <Footer/>
             </div>
         )
     }
