@@ -3,7 +3,7 @@ import React from "react";
 const ContactUs = () => {
   return (
     <div>
-      <div className="bg-white h-[60rem] border-1 border-blue-500 w-[80rem] ml-[2rem]">
+      <div className=" bg-white h-[60rem] border-1 border-blue-500 w-[80rem] ml-[2rem]">
         <div className="">
           <img
             src="src/assets/location1.avif"
@@ -19,6 +19,14 @@ const ContactUs = () => {
             voluptatum doloremque voluptatem labore illo quis minima voluptate
             facere aperiam sit.
           </p>
+          <div className="flex absolute top-[20rem] ml-[15rem] mt-[3rem]">
+        <div className="bg-white h-[20rem] w-[33rem] shadow-2xl shadow-black">
+          <h1 className="text-blue-800 text-[1.2rem] font-bold ml-[4rem] mt-[2rem]">Send us a Message</h1>
+        </div>
+        <div className="bg-blue-800 h-[20rem] w-[18rem]">
+          <h1 className="text-white ml-[3rem] mt-[2rem] text-[1.2rem] font-bold">Contact Information</h1>
+        </div>
+      </div>
         </div>
         <div className="flex">
         <div>
@@ -58,6 +66,7 @@ const ContactUs = () => {
           </div>
         </div>
         </div>
+
       </div>
     </div>
   );
