@@ -63,6 +63,23 @@ const ContactUs = () => {
               <h1 className="text-white ml-[3rem] mt-[2rem] text-[1.2rem] font-bold">
                 Contact Information
               </h1>
+              <div className="flex mt-[2rem] ml-[2rem]">
+                <img src="src/assets/location.png" alt="" className="h-[1.5rem]"/>
+                <h1 className="ml-[1rem] text-white">Biratnager-11,Morang</h1>
+              </div>
+              <div className="flex mt-[1rem] ml-[2rem]">
+                <img src="src/assets/phone-call.png" alt="" className="h-[1.5rem]"/>
+                <h1 className="ml-[1rem] text-white">981111111/25778990</h1>
+              </div>
+              <div className="flex mt-[1rem] ml-[2rem]">
+                <img src="src/assets/mail.png" alt="" className="h-[1.5rem]"/>
+                <h1 className="ml-[1rem] text-white">nc72723@gmail.com</h1>
+              </div>
+              <div className="flex ml-[6rem] mt-[4.5rem]">
+                <img src="src/assets/twitter (1).png" alt="" className="h-[1.5rem]"/>
+                <img src="src/assets/linkedin.png" alt="" className="h-[1.5rem] ml-[1rem]"/>
+                <img src="src/assets/instagram.png" alt="" className="h-[1.8rem] ml-[1rem]"/>
+              </div>
             </div>
           </div>
         </div>
